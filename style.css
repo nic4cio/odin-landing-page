@@ -1,32 +1,110 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #f5f5f5;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
 }
 
+/*HEADER*/
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 42px;
     flex-wrap: wrap;
 }
 
 .right-links {
     display: flex;
-    gap: 32px;  
-    color:rgb(41, 41, 41); 
-    flex-wrap: inherit;                                           
+    gap: 50px;    
+    flex-wrap: inherit;   
+    align-items: center;   
+    justify-content: center;                              
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(32, 32, 32);
+    flex-wrap: wrap;
+    padding-bottom: 32px;
 }
 
 .logo img {
     width: 150px;
-    height: 150px;
-    margin-top: 1rem;
+    height: 100px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 a {
-    color: rgb(255, 0, 76);
+    color:rgb(0, 0, 0); 
     text-decoration: none;
     font-size: 22px;
   }
+
+
+/*UPPER SIGNUP SECTION*/
+.upper_signup_section {
+    padding: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    flex-wrap: wrap;
+}
+
+.text_and_signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.text_and_signup h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text_and_signup p {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 540px) {
+    .text_and_signup p {
+        inline-size: 600px;
+    }
+}
+
+.text_and_signup button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 22px;
+    width: 100px;
+}
+
+.text_and_signup button:hover {
+    background-color: #8138f6;
+}
+
+.upper_signup_section .upper_img {
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/*INFORMATION CARDS*/
+
+
+/*TESTIMONIAL*/
+
 
