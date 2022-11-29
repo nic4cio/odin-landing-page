@@ -11,13 +11,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 42px;
+    padding: 12px;
     flex-wrap: wrap;
 }
 
 .right-links {
     display: flex;
     gap: 50px;    
+    margin-right: 32px;
     flex-wrap: inherit;   
     align-items: center;   
     justify-content: center;                              
@@ -95,11 +96,15 @@ a {
 }
 
 .upper_signup_section .upper_img {
-    background-color: #7fffd4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.upper_signup_section .upper_img img {
+    width: auto;
+    height: 400px;
 }
 
 /*INFORMATION CARDS*/
