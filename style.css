@@ -9,7 +9,7 @@ body {
 /*HEADER*/
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 12px;
     flex-wrap: wrap;
@@ -54,7 +54,7 @@ a {
 .upper_signup_section {
     padding: 42px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 42px;
     flex-wrap: wrap;
 }
@@ -78,8 +78,12 @@ a {
 }
 
 @media screen and (min-width: 540px) {
+    .text_and_signup h2 {
+        inline-size: 500px;
+        
+    }
     .text_and_signup p {
-        inline-size: 600px;
+        inline-size: 550px;
     }
 }
 
@@ -90,6 +94,7 @@ a {
     border-radius: 10px;
     padding: 15px 22px;
     width: 100px;
+    font-weight: 700;
 }
 
 .text_and_signup button:hover {
@@ -100,7 +105,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
 }
 
 .upper_signup_section .upper_img img {
