@@ -112,7 +112,33 @@ a {
     height: 400px;
 }
 
-/*INFORMATION CARDS*/
+/*INFORMATION*/
+.information {
+    text-align: center;
+}
+
+.information .information_title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.types_info {
+    flex: 0 1 250px;
+}
+
+.types_info img {
+    width: auto;
+    height: 150px;
+}
 
 
 /*TESTIMONIAL*/
