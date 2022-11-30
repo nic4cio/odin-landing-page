@@ -138,6 +138,8 @@ a {
 .types_info img {
     width: auto;
     height: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 16px;
 }
 
 
