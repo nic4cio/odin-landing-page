@@ -244,4 +244,21 @@ a {
     font-weight: 700;
 }
 
+.calltoaction_container button:hover {
+    background-color: #8138f6;
+}
+
+/*FOOTER*/
+.footer_container {
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+    padding: 32px;
+}
+
+.footer_container a {
+    font-weight:500;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
 
