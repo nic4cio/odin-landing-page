@@ -28,6 +28,10 @@ body {
     justify-content: center;                              
 }
 
+.right-links li a:hover {
+    text-decoration: underline;
+}
+
 .logo {
     display: flex;
     align-items: center;
