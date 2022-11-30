@@ -138,8 +138,13 @@ a {
 .types_info img {
     width: auto;
     height: 150px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid #3882f6;
     border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.types_info img:hover {
+    border-color: #8138f6;
 }
 
 
