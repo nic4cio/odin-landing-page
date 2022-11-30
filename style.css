@@ -138,14 +138,25 @@ a {
 
 .types_info img {
     width: auto;
-    height: 150px;
+    height: 300px;
     border: 2px solid #3882f6;
     border-radius: 16px;
     margin-bottom: 8px;
 }
 
+@media screen and (min-width: 540px) {
+    .types_info img {
+        width: auto;
+        height: 220px;
+    }
+}
+
 .types_info img:hover {
     border-color: #8138f6;
+}
+
+.types_info .text {
+    color:rgb(47, 47, 47);
 }
 
 
