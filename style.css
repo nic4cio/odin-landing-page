@@ -13,6 +13,7 @@ body {
     align-items: center;
     padding: 12px;
     flex-wrap: wrap;
+    background-color: rgb(212, 212, 212);
 }
 
 .right-links {
