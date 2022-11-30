@@ -206,4 +206,42 @@ a {
 }
 
 
+/*CALL TO ACTION*/
+.calltoaction_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction_container .calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border: 2px solid #f5f5f5;
+    border-radius: 32px;
+    padding: 42px;
+    margin: 32px;
+}
+
+.calltoaction_text {
+    margin: 16px;
+    color: #ffffff;
+}
+
+.calltoaction_text h2 {
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.calltoaction_container button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+    padding: 15px 22px;
+    width: 100px;
+    font-weight: 700;
+}
+
 
