@@ -136,7 +136,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 52px;
+    gap: 5em;
     flex-wrap: wrap;
 }
 
@@ -201,7 +201,7 @@ a {
 @media screen and (min-width: 540px) {
     .testimonials em {
         font-size: 36px;
-        inline-size: 600px;
+        inline-size: 500px;
     }
 
     .testimonials .testimonial_author {
