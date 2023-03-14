@@ -155,7 +155,7 @@ a {
 @media screen and (min-width: 540px) {
     .types_info img {
         width: auto;
-        height: 220px;
+        height: 16rem;
     }
 }
 
