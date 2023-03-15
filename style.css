@@ -14,9 +14,10 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 12px;
     flex-wrap: wrap;
     background-color: rgb(212, 212, 212);
+    /*padding-bottom to 2rem*/
+    padding-bottom: 2rem;
 }
 
 .right-links {
@@ -26,6 +27,11 @@ header {
     flex-wrap: inherit;   
     align-items: center;   
     justify-content: center;                              
+}
+
+/*add too*/
+.right-links a {
+    font-size: 1.3em;
 }
 
 .right-links li a:hover {
@@ -38,12 +44,29 @@ header {
     justify-content: center;
     color: rgb(32, 32, 32);
     flex-wrap: wrap;
-    padding-bottom: 32px;
+    margin-bottom: 2rem;
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 540px) {
+    header {
+        /*padding-botto 0 when screen min width 540px*/
+        padding-bottom: 0;
+    }
+
+    .logo {
+        /*padding-bottom nd padding top to 1em*/
+        padding-bottom: 1em;
+        padding-top: 1em;
+        /*margin 0 when screen min width 540px*/
+        margin: 0;
+    }
+    
 }
 
 .logo img {
-    width: 150px;
-    height: 100px;
+    width: 7rem;
+    height: 5rem;
 }
 
 .logo h1 {
@@ -132,6 +155,7 @@ a {
     margin-bottom: 32px;
 }
 
+/*gap to 5em*/
 .types {
     display: flex;
     justify-content: center;
@@ -153,9 +177,22 @@ a {
 }
 
 @media screen and (min-width: 540px) {
-    .types_info img {
+
+    /*changes here HEEEEERE */
+    /*changes here?*/
+    .types_info {
+        max-width: 14em;
+    }
+    /*remember to remove the comments*/
+    .types_info img {    
         width: auto;
-        height: 16rem;
+        height: 15em;
+    }
+
+    /*changes here*/
+    .types_info .text {
+        width: 15em;
+        height: 3em;
     }
 }
 
